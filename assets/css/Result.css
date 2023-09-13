@@ -1,0 +1,76 @@
+/* Style for the button and dropdown container */
+
+.section1 {
+    background-color: #EEEEEE;
+    width: 346px;
+    padding: 30px;
+}
+
+.row-filter {
+    width: 294px;
+    height: 83px;
+    margin-bottom: 10px;
+}
+
+.custom-select {
+    -webkit-appearance: none;
+    /* Safari và Chrome */
+    -moz-appearance: none;
+    /* Firefox */
+    appearance: none;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 294px;
+    height: 53px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.row-filter-2 {
+    margin-bottom: 10px;
+    width: 294px;
+}
+
+.row-filter-2 .col {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 3px;
+    height: 40px;
+    text-align: center;
+    padding-top: 6px;
+    font-weight: bold;
+    width: 143px;
+}
+
+.row-filter-2 .col:hover {
+    background-color: #3B0EEE;
+    color: #fff;
+}
+
+.date-box {
+    width: 294px;
+    height: 53px;
+    background-color: #fff;
+    text-align: right;
+    border-radius: 10px;
+    padding-right: 30px;
+}
+
+.date-box input {
+    width: 90%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+.date-box input:focus {
+    border: none;
+    outline: none;
+}
+
+label {
+    font-weight: bold;
+}
