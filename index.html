@@ -9,10 +9,92 @@
     <!-- link Bootstrap -->
     <link rel="stylesheet" href="./library/bootstrap/css/bootstrap.min.css">
     <!-- link JS -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./assets/js/app.js"></script>
+
     
 </head>
 <body>
-    
+    <div class="containerx">
+        <div class="header">
+            <div class="bg_header">
+                <div class="menu_bar">
+                    <div class="logo">
+                        <img src="./assets/img/Logo.png" alt="logo">
+                    </div>
+                    <div class="menu">
+                        <ul class="menu_list">
+                            <li class="menu_item"><a href="#">Trang chủ</a></li>
+                            <li class="menu_item"><a href="#">Du lịch</a></li>
+                            <li class="menu_item"><a href="#">Tin tức</a></li>
+                            <li class="menu_item"><a href="#">Liên hệ</a></li>
+                            <li class="menu_item"><a href="#">Khuyến mãi</a></li>
+                        </ul>
+                    </div>
+                    <div class="btnLogin_cart">
+                        <input type="button" value="Đăng nhập">
+                        <img src="./library/icon/Cart.svg" alt="cart">
+                    </div>
+                </div>
+                <div class="search">
+                    <div class="menu_search">
+                        <ul class="menu_search-list">
+                            <li class="menu_search-item"><a href="#">Tour trọn gói</a></li>
+                            <li class="menu_search-item"><a href="#">Khách sạn</a></li>
+                            <li class="menu_search-item"><a href="#">Vé máy bay</a></li>
+                            <li class="menu_search-item"><a href="#">Combo VMB + KS</a></li>
+                            <li class="menu_search-item"><a href="#">Combo Xe + KS</a></li>
+                            <li class="menu_search-item"><a href="#">Tra cứu</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu_search-option">
+                        <div class="btn_option">
+                            <input class="btn_domestic" type="button" value="Trong nước">
+                            <input class="btn_foreign" type="button" value="Nước Ngoài">
+                        </div>
+                        <form action="" class="from_search">
+                            <div class="btn_start w200">
+                                <p>Khởi hành</p>
+                                <select class="form_select" id="start-city">
+                                <option value="Thành phố Hồ Chí Minh" selected>Điểm khởi hành</option> 
+                                </select>
+                                <img src="./library/icon/location-marker.svg" alt="">
+                            </div>
+                            <div class="btn_destination w200">
+                                <p>Điểm đến</p>
+                                <select class="form_select" id="destination-city">
+                                <option value="" >Điểm đến</option> 
+                                </select>
+                                <img src="./library/icon/location-marker.svg" alt="">
+                            </div>
+                            <div class="btn_date w200">
+                                <p>Ngày khởi hành</p>
+                                <input type="date" class="form_select" id="date-start">
+                                <img src="./library/icon/calendar-date.svg" alt="">
+                            </div>
+                            <div class="btn_date w200">
+                                <p>Ngày kết thúc</p>
+                                <input type="date" class="form_select" id="date-end">
+                                <img src="./library/icon/calendar-date.svg" alt="">
+                            </div>
+                            <div class="btn_search w200">
+                                <input type="submit" value="Tìm kiếm">
+                                <img src="./library/icon/search.svg" alt="search">
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="content">
+                <div class="uudai">
+                    <h1 class="title_uudai">
+                        Ưu Đãi
+                    </h1>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
