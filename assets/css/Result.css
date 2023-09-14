@@ -1,15 +1,54 @@
-/* Style for the button and dropdown container */
+/*Reset CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0!important;
+}
+
+
+/* link font */
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../../library/font/Font\ Gilroy\ VH\ Full/!important);
+}
+
+body {
+    font-family: 'Gilroy';
+}
 
 .section1 {
     background-color: #EEEEEE;
     width: 346px;
-    padding: 30px;
+    height: 1413px;
+    padding-top: 30px;
+    border-radius: 10px;
+    float: left;
+}
+
+.first-row {
+    margin: 20px 0px 20px 0;
+    background-color: #3B0EEE;
+    color: #fff;
+    width: 346px;
+    height: 53px;
+    padding: 15px 0px 15px 25px;
+    align-items: center;
 }
 
 .row-filter {
     width: 294px;
     height: 83px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.row-filter label {
+    margin-bottom: 5px;
 }
 
 .custom-select {
@@ -30,7 +69,7 @@
 }
 
 .row-filter-2 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 294px;
 }
 
@@ -73,4 +112,144 @@
 
 label {
     font-weight: bold;
+}
+
+.slider-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    /* Adjust as needed */
+    height: 20px;
+    /* Adjust as needed */
+    margin-right: 10px;
+}
+
+
+/* Hide the default checkbox */
+
+.slider-checkbox input {
+    display: none;
+}
+
+
+/* Styles for the round slider */
+
+.slider {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 40px;
+    /* Adjust as needed */
+    height: 16px;
+    /* Make it round */
+    background-color: #cccccccb;
+    /* Background color of the slider */
+    border-radius: 8px;
+    /* Make it round */
+    transition: 0.4s;
+    /* Transition for smooth sliding effect */
+}
+
+
+/* Change slider color when checked */
+
+.slider-checkbox input:checked+.slider {
+    background-color: #2196F3;
+    /* Adjust the color as needed */
+}
+
+
+/* Move the slider to the right when checked */
+
+.slider-checkbox input:checked+.slider:before {
+    transform: translateX(20px);
+    /* Adjust as needed */
+}
+
+
+/* Styles for the slider thumb (the circular handle) */
+
+.slider:before {
+    position: absolute;
+    content: "";
+    width: 16px;
+    /* Adjust as needed */
+    height: 16px;
+    /* Adjust as needed */
+    background-color: white;
+    /* Color of the slider thumb */
+    border-radius: 50%;
+    /* Make it round */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    /* Add shadow for depth */
+    transition: 0.4s;
+    /* Transition for smooth sliding effect */
+}
+
+.wrapper {
+    list-style-type: none;
+    margin: 0;
+    height: 45px;
+    -webkit-box-align: center;
+    -ms-flex-align: center!;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.wrapper a {
+    color: #333;
+}
+
+.section2 {
+    height: 800px;
+}
+
+.section2 .item-card {
+    height: 374px;
+    padding: 10px;
+}
+
+.section2 .item-card .card {
+    width: 273px;
+    height: 354px;
+    display: flex;
+    align-items: center;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.section2 .item-card .card .card-img {
+    width: 250px;
+    height: 130px;
+    background-color: #fff;
+}
+
+.section2 .item-card .card .card-content {
+    width: 250px;
+    height: 140px;
+    background-color: #fff;
+    margin: 10px 0px 10px 0px;
+}
+
+.section2 .item-card .card .card-btn {
+    width: 250px;
+    height: 40px;
+}
+
+.section2 .item-card .card .card-btn a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.a-btn {
+    border-radius: 5px;
+    border: 1px solid #918a8a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
 }
