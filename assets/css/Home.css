@@ -10,11 +10,9 @@ p{
 /* link font */
 @font-face {
     font-family: Gilroy;
-    src:
-    url(../../library/font/fonts/SVN-GilroyBold.otf)format('opentype'),
-    url(../../library/font/fonts/SVN-GilroyLight.otf)format('opentype')
+    src:url(../../library/font/fonts/bold.otf)format("opentype"),
+    url(../../library/font/fonts/SVN-GilroyThin.otf)format("opentype")
     ;
-    
     font-weight: normal;
     font-style: normal;
 }
