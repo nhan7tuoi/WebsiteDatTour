@@ -379,13 +379,134 @@ input[type="number"] {
 
 .col-checkbox {
     margin-bottom: 20px;
+    display: flex;
+    height: 25px;
 }
 
 .col-checkbox label {
     font-weight: normal;
+    padding-left: 5px;
 }
 
-input[type="checknox"] {
-    width: 30px;
-    height: 120px;
+.card-combo {
+    width: 96%;
+    height: 270px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #ccccff;
+    margin-bottom: 20px;
+}
+
+.card-img-combo {
+    width: 35%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 20px;
+    float: left;
+}
+
+.card-img-combo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.card-content-combo {
+    width: 63%;
+    height: 100%;
+    float: right;
+}
+
+.inf-combo {
+    float: left;
+    width: 35%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #3B0EEE;
+    padding: 5px;
+    background-color: #ccccffda;
+}
+
+.vote {
+    float: right;
+    background-color: aliceblue;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(255, 247, 195);
+    margin-bottom: 10px;
+}
+
+.rating {
+    display: inline-block;
+    direction: rtl;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.rating label::before {
+    content: "\2606";
+    /* Unicode star character */
+}
+
+.rating input:checked~label::before {
+    color: gold;
+    /* Change the color to gold for selected stars */
+}
+
+.price-combo span {
+    color: red;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.card-footer-combo {
+    display: flex;
+}
+
+.btn-addcart {
+    width: 35%;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.btn-addcart button {
+    border: none;
+    padding: 5px;
+    width: 100%;
+    background-color: #3B0EEE;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn-ngaykhac {
+    width: 35%;
+    border: 1px solid #ccccff;
+    border-radius: 10px;
+}
+
+.btn-ngaykhac button {
+    border: none;
+    padding: 5px;
+    width: 100%;
+    color: #333;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: bold;
 }
