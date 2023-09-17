@@ -1,4 +1,5 @@
 /*Reset CSS*/
+
 * {
     padding: 0;
     margin: 0;
@@ -16,7 +17,9 @@ body {
     flex-direction: column;
 }
 
+
 /* menu */
+
 .menu_header {
     width: 1300px;
     height: 100px;
@@ -76,7 +79,9 @@ body {
     margin-top: -1px;
 }
 
+
 /* link bar */
+
 .link_bar {
     width: 1236px;
     height: 50px;
@@ -97,7 +102,9 @@ body {
     color: #3B0EEE;
 }
 
+
 /* content */
+
 .containerx {
     width: 1236px;
     height: 3100px;
@@ -198,7 +205,6 @@ body {
     font-weight: bold;
     border: none;
     border-radius: 10px;
-
 }
 
 .btn_DatNgay img {
@@ -492,6 +498,7 @@ body {
     color: #1B1B1B;
     padding-bottom: 20px;
 }
+
 .form_service {
     padding-top: 20px;
     height: 540px;
@@ -501,6 +508,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 .txt_service {
     width: 468px;
     padding-top: 20px;
@@ -512,25 +520,30 @@ body {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
 .combo_include-title {
     font-size: 30px;
     font-weight: bold;
     color: #1B1B1B;
 }
+
 .combo_include {
     width: 49%;
     padding-left: 30px;
 }
+
 .include {
     padding-top: 20px;
     height: 50%;
 }
+
 .include_detail {
     height: 100%;
     padding: 30px;
     background-color: #fff;
     border-radius: 15px;
 }
+
 .notinclude_detail,
 .include_detail ul li {
     padding-bottom: 5px;
@@ -538,43 +551,51 @@ body {
     font-weight: lighter;
     color: #1B1B1B;
 }
+
 .combo_notinclude-title {
     padding-top: 20px;
     font-size: 30px;
     font-weight: bold;
     color: #1B1B1B;
 }
+
 .notinclude {
     padding-top: 20px;
 }
+
 .notinclude_detail {
     height: 178px;
     padding: 30px;
     background-color: #fff;
     border-radius: 15px;
 }
+
 .conditions {
     padding-top: 70px;
     display: flex;
     justify-content: center;
 }
+
 .conditions_title {
     font-size: 30px;
     font-weight: bold;
     color: #1B1B1B;
 }
+
 .form_conditions {
     padding: 40px;
     height: 500px;
     background-color: #fff;
     border-radius: 15px;
 }
+
 .list3,
 .list2,
 .list1 {
     font-size: 15px;
     font-weight: lighter;
 }
+
 .quykhachcothethich {
     padding-top: 50px;
     display: flex;
@@ -582,21 +603,27 @@ body {
     width: 1236px;
     flex-direction: column;
 }
+
 .cothethich_title {
     font-size: 30px;
     font-weight: bold;
     color: #1B1B1B;
     text-align: center;
 }
+
+
 /* card */
+
 .listCard {
     margin-left: 0px !important;
     margin-right: 0px !important;
     justify-content: space-between;
 }
+
 .items_card {
     padding-bottom: 20px;
 }
+
 .card_item {
     width: 380px!important;
     background-color: #fff;
@@ -605,25 +632,31 @@ body {
     border-radius: 20px;
     box-shadow: #CBCBCB 0px 4px 4px;
 }
+
 .card_img {
     display: flex;
 }
+
 .card_favourite {
     position: relative;
     left: -330px;
 }
+
 .card_btn {
     display: flex;
     height: 25px;
     justify-content: space-between;
     padding-top: 5px;
 }
+
 .btn_left {
     display: flex;
 }
+
 .btn_right {
     display: flex;
 }
+
 .btn-1 {
     width: 58px;
     height: 20px;
@@ -631,8 +664,8 @@ body {
     opacity: 2;
     text-align: center;
     border-radius: 5px;
-
 }
+
 .btn-1 p {
     font-weight: bold;
     font-size: 12px;
@@ -640,9 +673,11 @@ body {
     color: #3B0EEE;
     padding-top: 2px;
 }
+
 .btn-space {
     width: 10px;
 }
+
 .btn-2 {
     width: 58px;
     height: 20px;
@@ -650,6 +685,7 @@ body {
     border-radius: 5px;
     background-color: #e1a5a5;
 }
+
 .btn-2 p {
     font-weight: bold;
     font-size: 12px;
@@ -657,6 +693,7 @@ body {
     color: #FF3A3A;
     padding-top: 2px;
 }
+
 .btn-3 {
     width: 100px;
     height: 20px;
@@ -666,13 +703,15 @@ body {
     border-left: #E1E1E1 1px solid;
     border-radius: 10px 0 0 10px;
 }
-.btn-3 p{
+
+.btn-3 p {
     font-weight: bold;
     font-size: 12px;
     line-height: 14px;
     color: #1B1B1B;
     padding-top: 2px;
 }
+
 .btn-4 {
     width: 20px;
     height: 20px;
@@ -682,6 +721,7 @@ body {
     text-align: center;
     border-radius: 0px 10px 10px 0px;
 }
+
 .btn-4 p {
     font-weight: bold;
     font-size: 12px;
@@ -689,50 +729,60 @@ body {
     color: #e31010;
     padding-top: 2px;
 }
+
 .card_time {
     display: flex;
     height: 30px;
     padding: 10px 0px 10px 25px;
 }
+
 .card_time p {
     font-size: 12px;
     font-weight: lighter;
 }
+
 .card_destination {
     height: 100px;
     padding: 0 25px 0px 25px;
 }
+
 .card_destination p {
     font-size: 17px;
     font-weight: bold;
     display: -webkit-box;
-    -webkit-line-clamp:4;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
-    overflow: hidden; 
+    overflow: hidden;
 }
+
 .card_start {
     height: 28px;
     display: flex;
     padding: 7px 25px 10px 20px;
 }
+
 .card_start p {
     font-size: 12px;
     font-weight: lighter;
 }
+
 .oldprice {
     height: 30px;
     display: flex;
     padding: 0 20px 10px 20px;
 }
+
 .oldprice p {
     font-size: 12px;
     font-weight: lighter;
 }
+
 .txt_oldprice {
     font-size: 12px;
     font-weight: lighter;
     text-decoration: line-through;
 }
+
 .txt_sale {
     width: 50px;
     font-size: 12px;
@@ -742,22 +792,25 @@ body {
     text-align: center;
     border-radius: 5px;
 }
+
 .newprice {
     height: 48px;
     display: flex;
     padding: 0 10px 10px 20px;
 }
+
 .newprice p {
     font-size: 25px;
     font-weight: bold;
     color: #FF3A3A;
 }
+
 .card_btnAddCart {
     display: flex;
     justify-content: space-around;
     margin-left: 20px;
-
 }
+
 .btn_add input {
     margin-right: -30px;
     padding-left: 24px;
@@ -772,6 +825,7 @@ body {
     line-height: 21px;
     color: #FFFFFF;
 }
+
 .btn_detail input {
     padding-left: 15px;
     width: 120px;
@@ -786,11 +840,13 @@ body {
     color: #1B1B1B;
     border: 1px solid #1B1B1B;
 }
+
 .btn_add img {
     position: relative;
     right: 80px;
     top: -1px;
 }
+
 .btn_detail img {
     position: relative;
     width: 20px;
@@ -798,9 +854,11 @@ body {
     right: 110px;
     top: -1px;
 }
+
+
 /* footer */
 
-.footer{
+.footer {
     width: 100%;
     height: 500px;
     background-color: #1B1B1B;
@@ -810,15 +868,18 @@ body {
     flex-direction: column;
     background-color: #E1E1E1;
 }
+
 .footer_content1 {
     height: 200px;
     width: 1236px;
     padding-top: 35px;
 }
+
 .detail_link {
     display: flex;
     flex-direction: column;
 }
+
 .detail_link a {
     font-size: 12px;
     font-weight: lighter;
@@ -827,46 +888,58 @@ body {
     padding-left: 10px;
     text-decoration: none;
 }
+
 .detail_link a:hover {
     color: #3301fc;
 }
+
 .detail_app {
     display: flex;
     justify-content: space-between;
 }
+
 .app_ios,
-.app_android p{
+.app_android p {
     font-size: 12px;
     font-weight: lighter;
     color: #1B1B1B;
     padding-top: 5px;
     padding-left: 10px;
 }
+
 .app_android img {
     padding-right: 40px;
 }
+
 .app_ios img {
     padding-top: 8px;
 }
+
 .footer_content3,
 .footer_content2 {
     width: 1236px;
 }
+
 .content_detail2 {
     width: 309px;
 }
+
 .chungnhan1 {
     padding-bottom: 10px;
 }
+
 .thanhtoan_row {
     padding-bottom: 15px;
 }
+
 .mxh img {
     padding-right: 15px;
 }
+
 .mxh a {
     text-decoration: none;
 }
+
 .detail_hotline input {
     background-color: #bab1db;
     width: 150px;
@@ -878,16 +951,19 @@ body {
     padding-left: 15px;
     color: #3B0EEE;
 }
+
 .detail_hotline img {
     position: relative;
     right: 140px;
     top: -3px;
 }
+
 .content_detail {
     font-size: 12px;
     font-weight: lighter;
 }
-.detail_input input:first-child{
+
+.detail_input input:first-child {
     width: 186px;
     height: 40px;
     border: 1px solid #E5E5E5;
@@ -897,14 +973,17 @@ body {
     padding-left: 39px;
     margin-bottom: -8px;
 }
+
 .detail_input input:first-child:focus {
     outline: #fff;
 }
+
 .detail_input img {
     position: relative;
     right: 175px;
     top: -3px;
 }
+
 .detail_input input:last-child {
     width: 60px;
     height: 38px;
@@ -915,8 +994,8 @@ body {
     margin-top: 1px;
     font-size: 18px;
     font-weight: bold;
-
 }
+
 .detail_header h5 {
     color: #E1E1E1;
 }
@@ -924,8 +1003,47 @@ body {
 .giayphep {
     height: 60px;
 }
+
 .giayphep p {
     padding-top: 20px;
     font-size: 12px;
     font-weight: lighter;
+}
+
+.inf-tour {
+    font-size: 12px;
+    width: 60%;
+    margin-left: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.inf-tour .row-inf {
+    display: flex;
+    width: 100%;
+    height: 45%;
+    align-items: center;
+    justify-content: center;
+}
+
+.inf-tour .col-inf {
+    width: 30%;
+    margin: 0 5px 0 5px;
+    height: 100%;
+}
+
+.inf-tour .icon {
+    width: 40%;
+    height: 40%;
+}
+
+.inf-tour .icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inf-tour p {
+    font-weight: bold;
 }
