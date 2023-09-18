@@ -7,21 +7,12 @@
 p{
     margin: 0!important;
 }
-/* link font */
-@font-face {
-    font-family: Gilroy;
-    src:url(../../library/font/fonts/bold.otf)format("opentype"),
-    url(../../library/font/fonts/SVN-GilroyThin.otf)format("opentype")
-    ;
-    font-weight: normal;
-    font-style: normal;
-}
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: Gilroy !important;
+    font-family: 'Inter'!important;
 }
 .containerx {
     width: 1440px;

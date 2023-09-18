@@ -8,7 +8,6 @@ xhr.onreadystatechange = function () {
     renderCity(result);
   }
 };
-
 xhr.send();
 function renderCity(data) {
     const startCitySelect = document.getElementById("start-city");
